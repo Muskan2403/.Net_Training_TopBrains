@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Q19Conversion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbc414f06c15d46eb72247a20f5f9f8713469705")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf4f91ebc6117d96605c4f4a5ae456b87c9fd5f2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Q19Conversion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Q19Conversion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

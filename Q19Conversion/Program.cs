@@ -9,10 +9,18 @@ namespace Q19Conversion
             Console.Write("Enter Feet: ");
             int feet = Convert.ToInt32(Console.ReadLine());
 
-            double centimeters = 30.48 * feet;
-            double result = Math.Round(centimeters,2,MidpointRounding.AwayFromZero);
+            double centimeters = FeetToCentimeter(feet);
+            
 
-            Console.WriteLine($"{feet} Feet : {result}cm");
+            Console.WriteLine($"{feet} Feet = {centimeters}cm");
+        }
+
+        public static double FeetToCentimeter(int feet)
+        {
+            double centimeter = feet * 30.48;
+            double result = Math.Round(centimeter,2,MidpointRounding.AwayFromZero);
+
+            return result;
         }
     }
 }
